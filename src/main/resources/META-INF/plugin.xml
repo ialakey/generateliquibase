@@ -31,5 +31,8 @@
         <action id="GenerateLiquibaseAction" class="com.example.generateliquibase.GenerateLiquibaseAction" text="Generate Liquibase Script" description="Generate Liquibase Script from Entity Class">
             <add-to-group group-id="EditorPopupMenu" anchor="last" />
         </action>
+        <action id="com.example.generateliquibase.KeyboardTranslator" class="com.example.generateliquibase.KeyboardTranslator" text="Keyboard Translator" description="Keyboard translator">
+            <add-to-group group-id="EditorPopupMenu" anchor="last" />
+        </action>
     </actions>
 </idea-plugin>

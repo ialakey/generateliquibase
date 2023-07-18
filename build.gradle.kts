@@ -44,6 +44,9 @@ tasks {
     dependencies {
         implementation("org.hibernate:hibernate-core:5.6.0.Final")
         implementation("org.hibernate:hibernate-entitymanager:5.6.0.Final")
+        implementation("org.apache.commons:commons-lang3:3.12.0")
+        implementation("org.jetbrains.kotlin:kotlin-compiler-embeddable:1.5.30")
+
     }
 
 }
